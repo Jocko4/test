@@ -16,7 +16,7 @@ pipeline {
             steps{
                 script{
                     sh "ansible-playbook -i Inventory/Test Test.yml"
-                    sh "ls git2"
+                    sh "ls"
         
             
                 }
