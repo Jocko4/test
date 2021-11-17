@@ -3,7 +3,7 @@
     connection: local
     tasks: 
       - name: git new file
-        file:
+        file: git3
           path: /home/ubuntu/Desktop/Ansible/git3
-          state: present
+          state: file
 
