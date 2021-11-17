@@ -3,7 +3,7 @@
     connection: local
     tasks: 
       - name: git new file
-        git:
-          repo: https://github.com/brajcic/Test.git
-          dest: /home/ubuntu/Desktop/Ansible/git2
+        file:
+          path: /home/ubuntu/Desktop/Ansible/git2
+          state: file
 
