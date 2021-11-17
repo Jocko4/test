@@ -4,6 +4,6 @@
     tasks: 
       - name: git new file
         file:
-          path: /home/ubuntu/Desktop/Ansible/git2
+          path: /home/ubuntu/Desktop/Ansible/git3
           state: file
 
