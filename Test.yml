@@ -5,5 +5,5 @@
       - name: git new file
         file:
           path: /home/ubuntu/Desktop/Ansible/git3
-          state: file
+          state: present
 
