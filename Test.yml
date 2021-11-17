@@ -2,8 +2,8 @@
   - hosts: test
     connection: local
     tasks: 
-      - name: git new file
-        file:
-          path: /home/ubuntu/Desktop/Ansible/git3
-          state: file
+      - name: git clone
+        git:
+          repo: https://github.com/brajcic/Test.git
+          dest: /home/ubuntu/Desktop/Ansible/git2
 
