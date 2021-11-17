@@ -14,7 +14,8 @@ pipeline {
         stage("checkin"){
             steps{
                 script{
-                    sh "ls"
+                    sh "ansible-playbook -i Inventory/Test Test.yml"
+                    sh "ls git2"
         
             
                 }
