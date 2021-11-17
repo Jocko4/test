@@ -1,0 +1,22 @@
+pipeline {
+  agent any
+    stages{
+        stage("checkout"){
+            steps{
+                script{
+                    sh "git clone https://github.com/Jocko4/test.git"
+        
+            
+                }
+            }
+        }stage("checkin"){
+            steps{
+                script{
+                    sh "ls"
+        
+            
+                }
+            }
+        }
+    }
+}
